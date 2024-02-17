@@ -270,6 +270,5 @@ function getRandomNumber() {
       // let scriptElement = document.createElement("script");
       // scriptElement.setAttribute("src", scriptSrc);
       // document.body.appendChild(scriptElement);
-
   })} 
         
