@@ -591,6 +591,11 @@ background-image: url(https://proezdnoy59.files.wordpress.com/2022/05/fon.png);
 		box-shadow: 0 0 0.8854vh rgba(0,0,0,0.2);
 		display: none;
 		}
+
+		.new_control.none {
+			display: none;
+			}
+
 	.control_img_left {
 	width: 16vw;
 	margin-right: 1vw
@@ -616,6 +621,22 @@ background-image: url(https://proezdnoy59.files.wordpress.com/2022/05/fon.png);
       cursor: pointer;
       transition: transform 0.2s;
     }
+
+	.button.off {
+		font-family: roboto;
+		background-color: rgb(0,84,190);
+		width: 87vw;
+		height: 5vh;
+		border-radius: 2vw;
+		margin: 0.8854vh auto;
+		box-shadow: 0 0 0.8854vh rgba(0, 0, 0, 0.2);
+		color: white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		transition: transform 0.2s;
+	  }
 
     .button:hover {
       background-color: rgb(7, 61, 103);

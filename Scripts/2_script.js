@@ -54,4 +54,14 @@
 				alert("Local storage has been cleared.");
 				window.location.href = "../../index.html";
 			  });
+
+			  document.getElementById("control_off").addEventListener("click", function() {
+				var buttonElement = document.getElementById('button');
+				var newControlElement = document.querySelector('.new_control');
+				var element = document.querySelector('.fig_1');
+
+				//buttonElement.className = '.button.off';
+				//newControlElement.className = '.new_control.none';
+				element.setAttribute('onclick', 'handleClick5()');
+			  });
 			  

@@ -124,13 +124,80 @@ var backticketimgElement = document.querySelector('.img_fig_1');
  backticketimgElement.src = '/Assets/bilet_noacrive.png';
   });
 }
+
+//
+
+function handleClick5() {
+  var zooElement = document.querySelector('zo');
+  zooElement.textContent = 'Заказ оплачен';
+  
+  var profileNewElement = document.querySelector('.new_control');
+  profileNewElement.style.display = 'none';
+  
+    var profileNewElement = document.querySelector('.profile_new');
+    profileNewElement.style.display = 'none';
+  
+  var profileNewElement = document.querySelector('.profile_new2');
+    profileNewElement.style.display = 'none';
+  
+  var profileNewElement = document.querySelector('.proezdnoy_new');
+    profileNewElement.style.display = 'none';
+  
+  var profileNewElement = document.querySelector('.schedule_new');
+    profileNewElement.style.display = 'none';
+  
+    var elementsToHide = document.querySelectorAll('.marshrut, .time_pos, .timer, .qr, .ost, .control_box, .mini_line, .mini_line2, mini_line3, .null_shap, zo');
+    elementsToHide.forEach(function(element) {
+      element.style.display = 'block';
+  
+  var imgElement = document.querySelector('.img_fig_2');
+    imgElement.src = '/Assets/proezdnoy_noactive_N.jpg';
+  
+  var backprofileimgElement = document.querySelector('.img_fig_3');
+    backprofileimgElement.src = '/Assets/cabinet_noactive.png';
+    
+    var imgElement = document.querySelector('.img_fig_1');
+    imgElement.src = '/Assets/bilet_acrive.png';
+  
+    var fontElement = document.querySelector('.font_fig_1');
+    fontElement.style.color = 'rgb(17,121,145)';
+  
+  var backprofilefontElement = document.querySelector('.font_fig_3');
+    backprofilefontElement.style.color = 'rgb(110, 110, 110)';
+  
+  var zoElement = document.querySelector('.shap_cen');
+    zoElement.style.marginLeft = 'calc(12vw + 10vh)';
+  
+  var opElement = document.querySelector('op');
+  opElement.textContent = 'Оплата проезда';
+  
+  var backbusimgElement = document.querySelector('.img_fig_4');
+   backbusimgElement.src = '/Assets/schedule_noactive.png';
+  
+    
+    var backbusfontElement = document.querySelector('.font_fig_4');
+    backbusfontElement.style.color = 'rgb(110, 110, 110)';
+  
+  var backproezdnoyimgElement = document.querySelector('.img_fig_2');
+   backproezdnoyimgElement.src = '/Assets/proezdnoy_noactive.png';
+  
+    
+    var backproezdnoyfontElement = document.querySelector('.font_fig_2');
+    backproezdnoyfontElement.style.color = 'rgb(110, 110, 110)';
+  
+   console.log = ('ger')
+  
+    });
+  }
+
+
 	// Билеты
 function handleClick4() {
 var zooElement = document.querySelector('zo');
 zooElement.textContent = 'Заказ оплачен';
 
-var profileNewElement = document.querySelector('.new_control');
-  profileNewElement.style.display = 'block';
+var profileNewElement = document.querySelector('.button');
+  profileNewElement.style.display = 'flex';
 
   var profileNewElement = document.querySelector('.profile_new');
   profileNewElement.style.display = 'none';

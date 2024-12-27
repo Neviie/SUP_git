@@ -129,8 +129,8 @@
 		var zooElement = document.querySelector('zo');
 		zooElement.textContent = 'Заказ оплачен';
 	  
-		var profileNewElement = document.querySelector('.new_control');
-      profileNewElement.style.display = 'block';
+		var profileNewElement = document.querySelector('.button');
+      profileNewElement.style.display = 'flex';
 	  
       var profileNewElement = document.querySelector('.profile_new');
       profileNewElement.style.display = 'none';
