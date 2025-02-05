@@ -6,7 +6,7 @@
 	  var profileNewElement = document.querySelector('.profile_new2');
       profileNewElement.style.display = 'block';
       
-      var elementsToHide = document.querySelectorAll('.marshrut, .time_pos, .timer, .qr, .ost, .control_box, .mini_line, .mini_line2, mini_line3, .null_shap, zo, .schedule_new, .proezdnoy_new, .button, .new_control');
+      var elementsToHide = document.querySelectorAll('.marshrut, .time_pos, .timer, .qr, .ost, .control_box, .mini_line, .mini_line2, mini_line3, .null_shap, zo, .schedule_new, .proezdnoy_new, .button, .new_control, .main_box');
       elementsToHide.forEach(function(element) {
         element.style.display = 'none';
 		
@@ -48,7 +48,7 @@
       var profileNewElement = document.querySelector('.schedule_new');
       profileNewElement.style.display = 'block';
       
-      var elementsToHide = document.querySelectorAll('.marshrut, .time_pos, .timer, .qr, .ost, .control_box, .mini_line, .mini_line2, mini_line3, .null_shap, zo, .profile_new, .proezdnoy_new, .profile_new2, .button, .new_control');
+      var elementsToHide = document.querySelectorAll('.marshrut, .time_pos, .timer, .qr, .ost, .control_box, .mini_line, .mini_line2, mini_line3, .null_shap, zo, .profile_new, .proezdnoy_new, .profile_new2, .button, .new_control,  .main_box');
       elementsToHide.forEach(function(element) {
         element.style.display = 'none';
 		
@@ -89,7 +89,7 @@
       var profileNewElement = document.querySelector('.proezdnoy_new');
       profileNewElement.style.display = 'block';
       
-      var elementsToHide = document.querySelectorAll('.marshrut, .time_pos, .timer, .qr, .ost, .control_box, .mini_line, .mini_line2, mini_line3, .null_shap, zo, .profile_new, .schedule_new, .profile_new2, .button, .new_control');
+      var elementsToHide = document.querySelectorAll('.marshrut, .time_pos, .timer, .qr, .ost, .control_box, .mini_line, .mini_line2, mini_line3, .null_shap, zo, .profile_new, .schedule_new, .profile_new2, .button, .new_control, .main_box');
       elementsToHide.forEach(function(element) {
         element.style.display = 'none';
 		
@@ -144,7 +144,7 @@
 	  var profileNewElement = document.querySelector('.schedule_new');
       profileNewElement.style.display = 'none';
 	  
-      var elementsToHide = document.querySelectorAll('.marshrut, .time_pos, .timer, .qr, .ost, .control_box, .mini_line, .mini_line2, mini_line3, .null_shap, zo');
+      var elementsToHide = document.querySelectorAll('.marshrut, .time_pos, .timer, .qr, .ost, .control_box, .mini_line, .mini_line2, mini_line3, .null_shap, zo, .main_box');
       elementsToHide.forEach(function(element) {
         element.style.display = 'block';
 		
