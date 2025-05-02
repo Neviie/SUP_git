@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  #map {
+    width: 100%;
+    height: 100%;
+  }  
+  
+  #controlBtn {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2vh 10vw;
+    font-size: 3vw;
+    background-color: #e53935;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  #commentModal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    z-index: 2000;
+    display: none;
+    width: 80%;
+    max-width: 400px;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #commentModal textarea {
+    width: 100%;
+    height: 10vh;
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    resize: none;
+  }
+  
+  #commentModal button {
+    background-color: #23a639;
+    color: white;
+    padding: 1vh 5vw;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .commentModal_buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+  }
+  
+  #overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1500;
+    display: none;
+  }
+  
+  body.locked {
+    overflow: hidden;
+  }
+  
