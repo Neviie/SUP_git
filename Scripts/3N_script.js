@@ -537,7 +537,7 @@ var randomDate = document.createElement('span');
 randomDate.className = 'random_date';
 randomDate.textContent = getRandomDate();
 var greenn = document.createElement('greenn');
-greenn.textContent = '40 руб';
+greenn.innerHTML = '<img class= "green_img" src="/Assets/virtual_card.png">40 ₽ ';
 div.appendChild(greenbusBox);
 div.appendChild(randomDate);
 div.appendChild(greenn);
@@ -592,7 +592,7 @@ blue_box.addEventListener('click', () => {
     randomDate.className = 'random_date';
     randomDate.textContent = getRandomDate();
     var greenn = document.createElement('greenn');
-    greenn.textContent = '+40 руб';
+    greenn.textContent = '+40 ₽';
     div.appendChild(greenPaidBox);
     div.appendChild(randomDate);
     div.appendChild(greenn);

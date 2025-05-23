@@ -89,11 +89,25 @@ background-image: url(https://proezdnoy59.files.wordpress.com/2022/05/fon.png);
 			font-family: roboto;	
 			font-size: calc(3.5vw + 1.8vh);
 			}
+			mar1 {
+				font-family: roboto;	
+				font-size: calc(3.5vw + 1.8vh);
+				display: flex;
+				justify-content: center;
+				}
 			kal {
 			font-family: roboto;
 			font-weight: 600;	
 			font-size: calc(3.5vw + 1.8vh);
 			}
+			kal1 {
+				font-family: roboto;
+				font-weight: 600;	
+				font-size: calc(3.5vw + 1.8vh);
+				display: flex;	
+				justify-content: center;
+				align-items: center;
+				}
 			ust {
 				font-size: calc(2vw + 1.5vh);
 				font-family: roboto;
@@ -217,21 +231,27 @@ background-image: url(https://proezdnoy59.files.wordpress.com/2022/05/fon.png);
 		font-family: roboto;
 		background-color: white;
 		Width: 87vw;
-		height: calc(11vh + 48vw);
+		height: 40vh;
 		position: relative;
 		margin: 1.3vh auto 1.3vh auto;
 		outline: dotted 0.7vw rgb(105,105,105);
 		padding: 0.5vh 0 0.5vh 0;
 		}
 			n {
-				font-size: calc(2vw + 1vh);
+				font-size: calc(1.7vw + 1vh);
+				line-height: 2.5vh;
 				
 			}
 			kim {
-				font-size: calc(2vw + 1vh);
+				font-size: calc(1.7vw + 1vh);
 				font-family: roboto;
 				font-weight: 600;
 				
+			}
+			bilet {
+				font-size: calc(1.7vw + 1vh);
+				font-family: roboto;
+					
 			}
 		.line {
 		border-bottom: solid 0.3703vw rgb(198,198,198);
@@ -1108,6 +1128,8 @@ background-image: url(https://proezdnoy59.files.wordpress.com/2022/05/fon.png);
 	color: rgb(44,146,85);
     font-weight: 600;
     font-size: 3vw;
+	display: flex;
+    align-items: center;
 	}
 
 	.history_paid_box {
@@ -1189,4 +1211,19 @@ background-image: url(https://proezdnoy59.files.wordpress.com/2022/05/fon.png);
 		.bluetooth {
 			font-size: calc(1vw + 1.7vh);
 			margin-right: 2vw;
+		}
+
+		.buy_img {
+			height: calc(3.5vw + 1.8Vh);
+			margin: 0 1vw;
+		}
+
+		.green_img {
+			height: 5vw;
+			margin: 0 1vw;
+
+		}
+
+		#oplata {
+			margin: 0 1vw 0 0 ;
 		}

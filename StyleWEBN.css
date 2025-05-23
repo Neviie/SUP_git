@@ -92,12 +92,28 @@
 			font-size: calc(3.5vw + 1.8Vh);
 			color: white;	
 			}
+			mar1 {
+				font-family: roboto;	
+				font-size: calc(3.5vw + 1.8Vh);
+				color: white;	
+				display: flex;
+				justify-content: center;
+				}
 			kal {
 			font-family: roboto;
 			font-weight: 600;	
 			font-size: calc(3.5vw + 1.8Vh);
-			color: white;	
+			color: white;
 			}
+			kal1 {
+				font-family: roboto;
+				font-weight: 600;	
+				font-size: calc(3.5vw + 1.8Vh);
+				color: white;
+				display: flex;	
+				justify-content: center;
+				align-items: center;
+				}
 			ust {
 				font-size: calc(2vw + 1.5vh);
 				font-family: roboto;
@@ -234,26 +250,27 @@
 		font-family: roboto;
 		background-color: rgb(34,34,34);
 		Width: 87vw;
-		height: calc(11vh + 48vw);
+		height: 40vh;
 		position: relative;
 		margin: 1.3vh auto 1.3vh auto;
 		outline: dotted 0.7vw rgb(113,113,113);
 		padding: 0.5vh 0 0.5vh 0;
 		}
 			n {
-				font-size: calc(2vw + 1vh);
+				font-size: calc(1.7vw + 1vh);
 				color: white;
+				line-height: 2.5vh;
 				
 			}
 			kim {
-				font-size: calc(2vw + 1vh);
+				font-size: calc(1.7vw + 1vh);
 				font-family: roboto;
 				font-weight: 600;
 				color: white;
 			}
 			
 			bilet {
-				font-size: calc(2vw + 1.5vh);
+				font-size: calc(1.7vw + 1vh);
 				font-family: roboto;
 				color: white;
 					
@@ -1118,6 +1135,8 @@
 	color: rgb(44,146,85);
     font-weight: 600;
     font-size: 3vw;
+	display: flex;
+    align-items: center;
 	}
 	.history_paid_box {
 		display: none;	
@@ -1198,4 +1217,19 @@
 		.bluetooth {
 			font-size: calc(1vw + 1.7vh);
 			margin-right: 2vw;
+		}
+
+		.buy_img {
+			height: calc(3.5vw + 1.8Vh);
+			margin: 0 1vw;
+		}
+
+		.green_img {
+			height: 5vw;
+			margin: 0 1vw;
+
+		}
+
+		#oplata {
+			margin: 0 1vw 0 0 ;
 		}

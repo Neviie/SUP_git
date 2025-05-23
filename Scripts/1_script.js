@@ -36,6 +36,8 @@ function getRandomNumber() {
     
   window.onload = function() {
        update1Number();
+
+    virtual_card_num.textContent = randomNumber16
   
     var leftImageElement = document.getElementById('left-image');
     var rightImageElement = document.getElementById('right-image');

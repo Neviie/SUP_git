@@ -104,7 +104,7 @@
 		<div class="balance">
 			<balance_text>Баланс:</balance_text>
 			<div class="balance_box">
-				<kam><span id="number2">0</span> руб</kam>
+				<kam><span id="number2">0</span> ₽</kam>
 			</div>
 		</div>
 		<div class="green_box">
@@ -143,7 +143,7 @@
         <span class="greenbus_box_num" id="duble_marsh">0</span>
         </div>
         <span class="random_date"><span id="date_date">01.07.2023</span> <span id="date_time">11:27</span></span>
-        <greenn><span id="greenpass">40</span> руб</greenn>
+        <greenn><img class="green_img" src="/Assets/virtual_card.png"><span id="greenpass">40</span> ₽</greenn>
     </div>
 </div>
 
@@ -153,7 +153,7 @@
         <span class="green_paid_num" id="green_paid">Пополнение</span>
         </div>
         <span class="random_date"><span id="date_date">01.07.2023</span> <span id="date_time">11:27</span></span>
-        <greenn><span id="greenpid">+40</span> руб</greenn>
+        <greenn><span id="greenpid">+40</span> ₽</greenn>
     </div>
 </div>
 
@@ -171,7 +171,7 @@
 		<div class="null_marsh"></div>
 <mar>Трамвай <div class="inp_avt" style = "display:inline-block;" id = "result"></div></mar>
 		<div class="null_marsh"></div>
-		<mar>оплачено <kal><span id="oplata">40</span> руб</kal></mar>
+		<mar1>оплачено <kal1><img class="buy_img" src="/Assets/virtual_card.png"><span id="oplata">40</span> ₽</kal1></mar1>
 		<div class="null_marsh"></div>
 		<mar>пассажиров <kal><span id="passen">1</span></kal> багажа <kal><span id="bags">0</span></kal></mar>
 		<div class="null_marsh"></div>
@@ -216,7 +216,7 @@
 
 <div class="ost">
 	<div onclick="update2Number()" class="text_t_p">
-	<ust>Остаток баланса  <span id="number">0</span> руб</ust>
+	<ust>Остаток баланса  <span id="number">0</span> ₽</ust>
 	</div>
 </div>
 <div class="control_box">
@@ -256,7 +256,11 @@ document.getElementById('e').innerHTML = getRandomInt(5000000000, 9000000000)
 		<div class="null_cont"></div>
 		<div class="line"></div>
 	<div class="null_cont3"></div>
-	<kim>Стоимость: 40 руб</kim>
+	<kim>Стоимость: 40 ₽</kim>
+	<div class="null_cont3"></div>
+	<n>Способ оплаты:
+		<div class="null_cont3"></div>
+	Цифровая карта <span id="virtual_card_num"></span></n>
 	</div>
 </div>
 </div>
